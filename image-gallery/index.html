@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery | CodeAlpha</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Image Gallery</h1>
+      <p>Explore beautiful collections of images.</p>
+    </header>
+
+    <main>
+      <!-- Filter Buttons -->
+      <section class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+
+        <button class="filter-btn" data-filter="nature">Nature</button>
+
+        <button class="filter-btn" data-filter="city">City</button>
+
+        <button class="filter-btn" data-filter="animals">Animals</button>
+
+        <button class="filter-btn" data-filter="travel">Travel</button>
+      </section>
+      <section class="effect-buttons">
+        <button class="effect-btn active" data-effect="none">Original</button>
+
+        <button class="effect-btn" data-effect="grayscale(100%)">B&W</button>
+
+        <button class="effect-btn" data-effect="sepia(100%)">Sepia</button>
+
+        <button class="effect-btn" data-effect="contrast(170%)">
+          Contrast
+        </button>
+
+        <button class="effect-btn" data-effect="brightness(120%)">
+          Bright
+        </button>
+
+        <button class="effect-btn" data-effect="blur(2px)">Blur</button>
+
+        <button class="effect-btn" data-effect="saturate(180%)">Vibrant</button>
+      </section>
+
+      <!-- Gallery -->
+      <section class="gallery">
+        <div class="gallery-item" data-category="nature">
+          <img
+            src="images/nature1.jpeg"
+            alt="Beautiful mountain landscape"
+            loading="lazy"
+          />
+          <div class="caption">Nature</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+          <img
+            src="images/city1.jpeg"
+            alt="Modern city skyline"
+            loading="lazy"
+          />
+          <div class="caption">City</div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+          <img
+            src="images/animal1.jpeg"
+            alt="Wild animal in nature"
+            loading="lazy"
+          />
+          <div class="caption">Animals</div>
+        </div>
+
+        <div class="gallery-item" data-category="travel">
+          <img
+            src="images/travel1.jpeg"
+            alt="Popular travel destination"
+            loading="lazy"
+          />
+          <div class="caption">Travel</div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+          <img
+            src="images/nature2.jpeg"
+            alt="Peaceful forest scenery"
+            loading="lazy"
+          />
+          <div class="caption">Nature</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+          <img src="images/city2.jpeg" alt="City street view" loading="lazy" />
+          <div class="caption">City</div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+          <img
+            src="images/animal2.jpeg"
+            alt="Beautiful wildlife"
+            loading="lazy"
+          />
+          <div class="caption">Animals</div>
+        </div>
+
+        <div class="gallery-item" data-category="travel">
+          <img
+            src="images/travel2.jpeg"
+            alt="Amazing travel location"
+            loading="lazy"
+          />
+          <div class="caption">Travel</div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+          <img
+            src="images/nature3.jpeg"
+            alt="Beautiful mountain landscape"
+            loading="lazy"
+          />
+          <div class="caption">Nature</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+          <img
+            src="images/city3.jpeg"
+            alt="Modern city skyline"
+            loading="lazy"
+          />
+          <div class="caption">City</div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+          <img
+            src="images/animal3.jpeg"
+            alt="Wild animal in nature"
+            loading="lazy"
+          />
+          <div class="caption">Animals</div>
+        </div>
+
+        <div class="gallery-item" data-category="travel">
+          <img
+            src="images/travel3.jpeg"
+            alt="Popular travel destination"
+            loading="lazy"
+          />
+          <div class="caption">Travel</div>
+        </div>
+
+        <div class="gallery-item" data-category="nature">
+          <img
+            src="images/nature4.jpeg"
+            alt="Peaceful forest scenery"
+            loading="lazy"
+          />
+          <div class="caption">Nature</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+          <img src="images/city4.jpeg" alt="City street view" loading="lazy" />
+          <div class="caption">City</div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+          <img
+            src="images/animal4.jpeg"
+            alt="Beautiful wildlife"
+            loading="lazy"
+          />
+          <div class="caption">Animals</div>
+        </div>
+
+        <div class="gallery-item" data-category="travel">
+          <img
+            src="images/travel4.jpeg"
+            alt="Amazing travel location"
+            loading="lazy"
+          />
+          <div class="caption">Travel</div>
+        </div>
+        <div class="gallery-item" data-category="nature">
+          <img
+            src="images/nature5.jpeg"
+            alt="Beautiful mountain landscape"
+            loading="lazy"
+          />
+          <div class="caption">Nature</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+          <img
+            src="images/city5.jpeg"
+            alt="Modern city skyline"
+            loading="lazy"
+          />
+          <div class="caption">City</div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+          <img
+            src="images/animal5.jpeg"
+            alt="Wild animal in nature"
+            loading="lazy"
+          />
+          <div class="caption">Animals</div>
+        </div>
+
+        <div class="gallery-item" data-category="travel">
+          <img
+            src="images/travel5.jpeg"
+            alt="Popular travel destination"
+            loading="lazy"
+          />
+          <div class="caption">Travel</div>
+        </div>
+        <div class="gallery-item" data-category="nature">
+          <img
+            src="images/nature6.jpeg"
+            alt="Beautiful mountain landscape"
+            loading="lazy"
+          />
+          <div class="caption">Nature</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+          <img
+            src="images/city6.jpeg"
+            alt="Modern city skyline"
+            loading="lazy"
+          />
+          <div class="caption">City</div>
+        </div>
+        <div class="gallery-item" data-category="animals">
+          <img
+            src="images/animal6.jpeg"
+            alt="Wild animal in nature"
+            loading="lazy"
+          />
+          <div class="caption">Animals</div>
+        </div>
+        <div class="gallery-item" data-category="travel">
+          <img
+            src="images/travel6.jpeg"
+            alt="Popular travel destination"
+            loading="lazy"
+          />
+          <div class="caption">Travel</div>
+        </div>
+          <div class="gallery-item" data-category="nature">
+          <img
+            src="images/nature7.jpeg"
+            alt="Beautiful mountain landscape"
+            loading="lazy"
+          />
+          <div class="caption">Nature</div>
+        </div>
+
+        <div class="gallery-item" data-category="city">
+          <img
+            src="images/city7.jpeg"
+            alt="Modern city skyline"
+            loading="lazy"
+          />
+          <div class="caption">City</div>
+        </div>
+
+        <div class="gallery-item" data-category="animals">
+          <img
+            src="images/animal7.jpeg"
+            alt="Wild animal in nature"
+            loading="lazy"
+          />
+          <div class="caption">Animals</div>
+        </div>
+        <div class="gallery-item" data-category="travel">
+          <img
+            src="images/travel7.jpeg"
+            alt="Popular travel destination"
+            loading="lazy"
+          />
+          <div class="caption">Travel</div>
+        </div>
+          <div class="gallery-item" data-category="nature">
+          <img
+            src="images/nature8.jpeg"
+            alt="Beautiful mountain landscape"
+            loading="lazy"
+          />
+          <div class="caption">Nature</div>
+        </div>
+        <div class="gallery-item" data-category="city">
+          <img
+            src="images/city8.jpeg"
+            alt="Modern city skyline"
+            loading="lazy"
+          />
+          <div class="caption">City</div>
+        </div>
+        <div class="gallery-item" data-category="animals">
+          <img
+            src="images/animal8.jpeg"
+            alt="Wild animal in nature"
+            loading="lazy"
+          />
+          <div class="caption">Animals</div>
+        </div>
+        <div class="gallery-item" data-category="travel">
+          <img
+            src="images/travel8.jpeg"
+            alt="Popular travel destination"
+            loading="lazy"
+          />
+          <div class="caption">Travel</div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Lightbox -->
+    <div class="lightbox hidden">
+      <!-- Close Button -->
+      <span
+        class="close-btn"
+        role="button"
+        aria-label="Close Preview"
+        tabindex="0"
+      >
+        <i class="fa-solid fa-xmark"></i>
+      </span>
+
+      <!-- Previous Button -->
+      <button class="prev-btn" aria-label="Previous Image">
+        <i class="fa-solid fa-angle-left"></i>
+      </button>
+
+      <!-- Selected Image -->
+      <img class="lightbox-img" src="" alt="Preview Image" draggable="false" />
+
+      <!-- Next Button -->
+      <button class="next-btn" aria-label="Next Image">
+        <i class="fa-solid fa-angle-right"></i>
+      </button>
+
+      <!-- Image Counter -->
+      <div class="image-count">1 / 8</div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+  </body>
+</html>
